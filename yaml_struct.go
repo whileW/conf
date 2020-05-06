@@ -7,6 +7,12 @@ type Mysql struct {
 	Username	string	`json:"username"`
 	Password	string	`json:"password"`
 }
+type Xcx struct {
+	AppId     string 	`json:"app_id"`
+	AppSecret string 	`json:"app_secret"`
+}
+
 type config struct {
 	ZyjyMysql		Mysql	`json:"zyjy_mysql"`
+	ZyjyXcx 		Xcx 	`json:"zyjy_xcx"`
 }
