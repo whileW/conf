@@ -10,6 +10,8 @@ type Mysql struct {
 type Xcx struct {
 	AppId     string 	`json:"app_id"`
 	AppSecret string 	`json:"app_secret"`
+	MchId 		string	`json:"mch_id"`
+	MchKey 		string	`json:"mch_key"`
 }
 
 type config struct {
